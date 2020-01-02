@@ -1,0 +1,174 @@
+/*------------------------------*/
+
+/* Section with facts */
+
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+body {
+    margin: 0;
+}
+
+/*--------------header------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+#menus {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+.menu {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  width: 100px;
+  height: 50px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+/*---------end of header styling -----------*/
+
+/*-----------paragraph and video-------------*/
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 20px 20px;
+}
+
+#opening {
+    margin: 15px;
+}
+
+
+/*------end of p and vid--------------*/
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 50px 10px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.pricing {
+  font-family: Arial;
+  padding: 25px;
+  background-color: #f5f5f5;
+  color: #808080;
+  text-align: center;	
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}

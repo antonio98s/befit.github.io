@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css"/>
+        <!-- Bootstrap 4 ----------------------------------------------------->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/18b18b6e7f.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!----------end----------------------------------------------->
+        <script type="text/javascript" charset="utf-8" src="js/script.js"></script>
+        <script type="text/javascript" charset="utf-8" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript" charset="utf-8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <title>BC Campus Recreation - Group Fitness - Boston College</title>
+    </head>
+
+    <header id="menus">
+        <div class="menu">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <body>
+        
+        <style>
+            html {
+              box-sizing: border-box;
+            }
+
+            *, *:before, *:after {
+              box-sizing: inherit;
+            }
+            
+            #intro {
+                margin: 30px;
+                text-align: center;
+            }
+
+            .column {
+              float: left;
+              width: 33.3%;
+              margin-bottom: 16px;
+              padding: 25px;
+            }
+
+            @media screen and (max-width: 650px) {
+              .column {
+                width: 100%;
+                display: block;
+              }
+            }
+
+            .card {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .container {
+              padding: 0 16px;
+            }
+
+            .container::after, .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+
+            .title {
+              color: grey;
+            }
+
+            .button {
+              border: none;
+              outline: 0;
+              display: inline-block;
+              padding: 8px;
+              color: white;
+              background-color: #000;
+              text-align: center;
+              cursor: pointer;
+              width: 100%;
+            }
+
+            .button:hover {
+              background-color: #555;
+            }
+            </style>
+
+            <body>
+            
+            <div id="intro">
+                <h2>Meet Our Team</h2>
+                <p>We are proud to present to you our top specialists at BeFit.</p>
+            <br>
+            </div>
+            
+
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img width="560" height="315" src="images/izzy.jpg" alt="Jane" style="width:100%">
+                  <div class="container">
+                    <h2>Isabella Smyth</h2>
+                    <p class="title">Trainer</p>
+                    <p>I love working at BeFit! This is the best gym, hands down. I am one of the trainers specialized in cardio and yoga.</p>
+                    <p>fizzybella@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img width="560" height="315" src="images/marc.jpg" alt="Mike" style="width:100%">
+                  <div class="container">
+                    <h2>Marc Orazietti</h2>
+                    <p class="title">Senior Trainer</p>
+                    <p>I love working out and helping our memberes at BeFit! I am one of the trainers specialized in martial arts and boxing. Light up that bag!</p>
+                    <p>marco@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img width="560" height="315"src="images/f-rossi.jpg" alt="John" style="width:100%">
+                  <div class="container">
+                    <h2>Francesca Rossi</h2>
+                    <p class="title">Front Desk</p>
+                    <p>Hey everyone! I make sure that all members at BeFit are beyond satisfied. Any questions stop by my desk. You can also contact me via email.</p>
+                    <p>frarossi@gmail.com</p>
+                    <p><button class="button">Contact</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+</body>
+        
+        
+        
+        
+        
+        <!-- Footer -->
+        <footer class="page-footer font-small blue-grey lighten-5">
+
+            <div style="background-color: #21d192;">
+                <div class="container">
+
+                    <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <h6 class="mb-0">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+              <!-- Facebook -->
+              <a class="fb-ic" href="#">
+                <i class="fab fa-facebook-f white-text mr-4"></i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic" href="#">
+                <i class="fab fa-twitter white-text mr-4"></i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic" href="#">
+                <i class="fab fa-instagram white-text"></i>
+              </a>
+                    
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+            </div>
+          </div>
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">BeFit </h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>We pride ourselves by being the best gym possible for our clients providing them with clean equipment, fitness classes, and flexible hours.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">About</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Pricing </h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i> Dallas, TX 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 1 234 567 888</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 1 234 567 889</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright:
+    <a class="dark-grey-text" src="index.html"> BeFit</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+        <!-- Footer -->
+    
+    
+    </body>
